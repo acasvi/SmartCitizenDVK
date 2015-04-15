@@ -103,7 +103,7 @@ As you can see, the RTX shield has two push buttons, S1 and S2. With this two bu
 
 **MODE 1**
 
-This is the default mode when you connect the board, green LED is ON. This mode send through usb-serial, at 9600 bauds, the values captured by the temperature and humidity sensors and give you if a SD Card is detected or not. You can find this values in the main() function of  SmartCitizen_DVK.ino.
+This is the default mode when you connect the board, green LED is ON. This mode send through usb-serial, at 9600 bauds, the values captured by the temperature and humidity sensors and give you if a SD Card is detected or not. You can find this values in the `main()` function of `SmartCitizen_DVK.ino`.
 
 **MODE 2**
 
