@@ -79,7 +79,7 @@ In the Components folder (Projects\Amelie\Componets) you find the following fold
 
 Refer to RTX4100_User_Guide_Tools_Installation_UG2.pdf for a further explanation about installation the toolchain and SDK.
 
-### Application Development
+#### Application Development
 
 For start with the **application development** refer to chapter 4 on [RTX4100_User_Guide_Application_Development_UG3.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Application_Development_UG3.pdf)
 
@@ -99,19 +99,19 @@ To use the RTX Shield connect an usb cable in the programming port of the Arduin
 
 As you can see, the RTX shield has two push buttons, **S1** and **S2**. With this two buttons you can change between 4 modes of operation:
 
-**MODE 1**
+####MODE 1
 
 This is the default mode when you connect the board, green LED is ON. This mode send through usb-serial, at 9600 bauds, the values captured by the temperature and humidity sensors and give you if a SD Card is detected or not. You can find this values in the `main()` function of `SmartCitizen_DVK.ino`.
 
-**MODE 2**
+####MODE 2
 
 If push **S1**, green LED start to blinking. You are on terminal mode. If CoLa app for terminal communication is uploaded, yelllow LED ON, you can talk through USB-serial with the RTX WIFI module. If you push again S1, you'll go back to MODE 1.
 
-**MODE 3**
+####MODE 3
 
 If you push **S2**, blue LED ON, you can upload CoLA applications with **ColaController, **the PC tool used to download Co-Located Applications to the module via the UART. You can find this tool on ColaController folder inside Amelie SDK folder.
 
-**MODE 4**
+####MODE 4
 
 If you push **S2** again, green and blue LED ON, you will enter in RTX firmware uploading mode, then blue LED start to blinking.
 
@@ -148,7 +148,7 @@ The RTX41xx Wi-Fi Module is a low power solution, which is achieved through the 
 * UART, SPI, I2C
 * Timers
 
-### NC7SZ157P6X – MUX
+#### NC7SZ157P6X – MUX
 
 [http://www.mouser.com/ds/2/149/NC7SZ157-96268.pdf](http://www.mouser.com/ds/2/149/NC7SZ157-96268.pdf)
 
@@ -159,29 +159,29 @@ You can select between two serial ports:
 * LEU1: (LEUART) is used for the Terminal application (such at Putty), for example.
 * US1: (USART) is used for CoLA loading, SW debugging and Platform updates (using the CoLA Controller)
 
-### MCP1725-3002E/SN LDO REGULATOR
+#### MCP1725-3002E/SN LDO REGULATOR
 
 [http://ww1.microchip.com/downloads/en/DeviceDoc/22026b.pdf](%22http:)
 
 3V fixed voltage regulator
 
-### CD74HC4050M High-to-Low Voltage Level Converter
+#### CD74HC4050M High-to-Low Voltage Level Converter
 
 [http://www.mouser.com/ds/2/405/schs205i-101882.pdf](http://www.mouser.com/ds/2/405/schs205i-101882.p)
 
 IC used as logic level converter between Arduino and the RTX4100 module.
 
-### SDCARD
+#### SDCARD
 
 [http://www.mouser.com/ds/2/185/e60900232-38395.pdf](http://www.mouser.com/ds/2/185/e60900232-38395.pdf)
 
 To hold the SD card we are using the DM3CS holder. The SD card is powered at 3V and communicates with the RTX4100 through SPI protocol.
 
-### SHT21 Humidity and Temperature Sensor IC
+#### SHT21 Humidity and Temperature Sensor IC
 
 [http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V4.pdf](http://www.sensirion.com/fileadmin/user_upload/customers/s)
 
-### LEDs
+#### LEDs
 
 * **LED1 YELLOW:** Connected to RTX4100 pin 27, for testing Blink Colapp example
 * **LED2 BLUE:** Connected to Arduino Analog0 pin
