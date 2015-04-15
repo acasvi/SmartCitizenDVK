@@ -3,7 +3,7 @@ Smart Citizen Kit DVK
 
 **Smart Citizen Kit Develoment Kit (DVK) for RTX4100 and Arduino Due**
 
-<img src="https://cdn.rawgit.com/fablabbcn/SmartCitizenDVK/master/img.jpg" alt="SCK_DVK" style="width: 100%"/>
+<img src="https://smartcitizen.me/img/sck_dvk.jpg" alt="SCK_DVK" style="width: 100%"/>
 
 This shield has been designed to work with the [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)
 
