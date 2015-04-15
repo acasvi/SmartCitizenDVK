@@ -156,8 +156,8 @@ The mux is used to select from Arduino which serial port of the RTX4100 you want
 
 You can select between two serial ports:
 
-* −LEU1: (LEUART) is used for the Terminal application (such at Putty), for example.
-* −US1: (USART) is used for CoLA loading, SW debugging and Platform updates (using the CoLA Controller)
+* LEU1: (LEUART) is used for the Terminal application (such at Putty), for example.
+* US1: (USART) is used for CoLA loading, SW debugging and Platform updates (using the CoLA Controller)
 
 ### MCP1725-3002E/SN LDO REGULATOR
 
