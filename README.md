@@ -1,11 +1,9 @@
 Smart Citizen Kit DVK
 =====================
 
-**Smart Citizen Kit Develoment Kit (DVK) for RTX4100 and Arduino Due**
+**Smart Citizen Kit Develoment Kit (DVK) for [RTX4100](http://www.rtx.dk/RTX41xx_Wi-Fi_modules-3921.aspx) and [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)**
 
 <img src="https://smartcitizen.me/img/sck_dvk.jpg" alt="SCK_DVK" style="width: 100%"/>
-
-This shield has been designed to work with the [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)
 
 ## First Steps
 
@@ -178,8 +176,8 @@ To hold the SD card we are using the DM3CS holder. The SD card is powered at 3V 
 
 [http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT21_Datasheet_V4.pdf](http://www.sensirion.com/fileadmin/user_upload/customers/s)
 
-### LEDS
+### LEDs
 
-* LED1 YELLOW: Connected to RTX4100 pin 27, for testing Blink Colapp example
-* LED2 BLUE: Connected to Arduino Analog0 pin
-* LED3 GREEN: Connected to Arduino Analog1 pin
+* **LED1 YELLOW:** Connected to RTX4100 pin 27, for testing Blink Colapp example
+* **LED2 BLUE:** Connected to Arduino Analog0 pin
+* **LED3 GREEN:** Connected to Arduino Analog1 pin
