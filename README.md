@@ -1,7 +1,7 @@
 Smart Citizen Kit DVK
 =====================
 
-**Smart Citizen Kit Develoment Kit (DVK) for [RTX4100](http://www.rtx.dk/RTX41xx_Wi-Fi_modules-3921.aspx) and [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)**
+**[Smart Citizen Kit](https://github.com/fablabbcn/Smart-Citizen-Kit) Develoment Kit (DVK) for [RTX4100](http://www.rtx.dk/RTX41xx_Wi-Fi_modules-3921.aspx) and [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)**
 
 <img src="https://smartcitizen.me/img/sck_dvk.jpg" alt="SCK_DVK" style="width: 100%"/>
 
@@ -97,7 +97,7 @@ All the boards come with:
 
 To use the RTX Shield connect an usb cable in the programming port of the Arduino Due, the one closest to the DC power jack.
 
-As you can see, the RTX shield has two push buttons, S1 and S2. With this two buttons you can change between 4 modes of operation.
+As you can see, the RTX shield has two push buttons, **S1** and **S2**. With this two buttons you can change between 4 modes of operation:
 
 **MODE 1**
 
@@ -121,6 +121,11 @@ To perform the Firmware update:
 2. Unzip the file to your harddrive. As this document is included in the above ZIP file you have probably already downloaded the file.
 
 *NOTE: Each time you plug the arduino due with the shield to your computer automatically reses the mode to mode 1.*
+
+### Existing software
+
+* [Smart Citizen Kit firmware](https://github.com/fablabbcn/Smart-Citizen-Kit) for the Ambient Sensor Board 1.0-1.2 *(MCU ATMEGA32U4)*
+* [Smart Citizen Kit RTX4100 Application - BETA](https://github.com/fablabbcn/SmartCitizenRTX4100)
 
 ## Hardware
 
