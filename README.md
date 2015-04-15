@@ -3,7 +3,7 @@ Smart Citizen Kit DVK
 
 **Smart Citizen Kit Develoment Kit (DVK) for RTX4100 and Arduino Due**
 
-<img src="http://docs.smartcitizen.me/img/sck_1.1_3.jpg" alt="SCK" style="width: 100%"/>
+<img src="https://cdn.rawgit.com/fablabbcn/SmartCitizenDVK/master/img.jpg" alt="SCK_DVK" style="width: 100%"/>
 
 This shield has been designed to work with the [Arduino Due](http://arduino.cc/en/Main/arduinoBoardDue)
 
@@ -19,7 +19,7 @@ Download the `gcc-arm-none-eabi-4_7-2013q3-20130916-win32.exe` file, save to dis
 
 Don't forget to click “Add path to environment variable” checkbox at the end of the installation.
 
-Refer to **RTX4100_User_Guide_Tools_Installation_UG2.pdf** for a further explanation about installation the toolchain and SDK.
+Refer to **[RTX4100_User_Guide_Tools_Installation_UG2.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Tools_Installation_UG2.pdf)** for a further explanation about installation the toolchain and SDK.
 
 ### Installing the SDK
 
@@ -84,19 +84,19 @@ Refer to RTX4100_User_Guide_Tools_Installation_UG2.pdf for a further explanation
 
 ### Application Development
 
-For start with the **application development** refer to chapter 4 on RTX4100_User_Guide_Application_Development_UG3.pdf
+For start with the **application development** refer to chapter 4 on [RTX4100_User_Guide_Application_Development_UG3.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Application_Development_UG3.pdf)
 
-For **terminal commands to configure WIFI** module refer to chapter 5 on RTX4100_User_Guide_Module_Evaluation_UG1.pdf
+For **terminal commands to configure WIFI** module refer to chapter 5 on [RTX4100_User_Guide_Module_Evaluation_UG1.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Application_Development_UG3.pdf)
 
-For **API used to program Co-Located Applications (CoLA)** on top of the Amelie Wi-Fi platform refer to AmelieApi_V0106_N0052.pdf
+For **API used to program Co-Located Applications (CoLA)** on top of the Amelie Wi-Fi platform refer to [AmelieApi_V0106_N0052.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/AmelieApi_V0106_N0052.pdf)
 
 ## Software
 
 All the boards come with:
 
-* SmartCitizen_DVK Arduino firmware (https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Constants.h) uploaded. 
+* Arduino firmware *[SmartCitizen_DVK.ino](https://github.com/fablabbcn/SmartCitizenDVK/tree/master/Firmware)* uploaded. 
 * RTX firmware uploaded
-* CoLA application for terminal communication with WIFI module uploaded, for available **terminal commands** refer to chapter 5 on **RTX4100_User_Guide_Module_Evaluation_UG1.pdf**
+* CoLA application for terminal communication with WIFI module uploaded, for available **terminal commands** refer to chapter 5 on *[RTX4100_User_Guide_Module_Evaluation_UG1.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Module_Evaluation_UG1.pdf)*
 
 To use the RTX Shield connect an usb cable in the programming port of the Arduino Due, the one closest to the DC power jack.
 
