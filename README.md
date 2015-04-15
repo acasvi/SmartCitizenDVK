@@ -65,10 +65,9 @@ The following folders are at top level: 
 In the Project folder (Projects\Amelie\COLApps) you find the following folders:
 
 * **Apps** – A set of reference applications 
-* Blinky – The source code for the Blinky application
-* Blinky/Build/RTX4100_WSAB – Build folder for RTX4100 module on WSAB.
-* Blinky/Build/RTX4140_WSAB – Build folder for RTX4140 module on WSAB.
-* … 
+	* Blinky – The source code for the Blinky application
+	* Blinky/Build/RTX4100_WSAB – Build folder for RTX4100 module on WSAB.
+	* Blinky/Build/RTX4140_WSAB – Build folder for RTX4140 module on WSAB.
 * **Config** – This folder holds various configuration header files required to build the reference applications.
 * **Rsx** – PC tool for API mail trace via UART.
 * **Scripts** – build/linker scripts.
@@ -120,7 +119,7 @@ if you push **S2** again, green and blue LED ON, you will enter in RTX firmware 
 
 To perform the Firmware update, you first need to download the file RTX41xx_Platform_Firmware_Update_Pack_v1.6.0.52.zip from the RTX download center. [http://www.rtx.dk/Download_Center_Login-3980.aspx](http://www.rtx.dk/Download_Center_Login-3980.aspx) Unzip the file to your harddrive. As this document is included in the above ZIP file you have probably already downloaded the file.
 
-***NOTE:** Each time you plug the arduino due with the shield to your computer automatically reses the mode to mode 1.*
+*NOTE: Each time you plug the arduino due with the shield to your computer automatically reses the mode to mode 1.*
 
 ## Hardware
 
