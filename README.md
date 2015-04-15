@@ -118,6 +118,7 @@ If you push **S2**, blue LED ON, you can upload CoLA applications with **ColaCon
 If you push **S2** again, green and blue LED ON, you will enter in RTX firmware uploading mode, then blue LED start to blinking.
 
 To perform the Firmware update:
+
 1. Download the firmware file **RTX41xx_Platform_Firmware_Update_Pack_v1.6.0.52.zip** from the RTX [download center](http://www.rtx.dk/Download_Center_Login-3980.aspx). 
 2. Unzip the file to your harddrive. As this document is included in the above ZIP file you have probably already downloaded the file.
 
