@@ -5,7 +5,7 @@ Smart Citizen Kit DVK
 
 <img src="https://smartcitizen.me/img/sck_dvk.jpg" alt="SCK_DVK" style="width: 100%"/>
 
-*The **Smart Citizen DVK** is an Arduino Shield for the Arduino DUE and the upcoming Arduino Zero aimed to help developers prototype applications for the new Smart Citizen Kit Data Board 2.0. It contains an RTX4100 low-power Wi-Fi module, an SD card socket and a digital temperature and humidity sensor.*
+*The Smart Citizen DVK is an Arduino Shield for the Arduino DUE and the upcoming Arduino Zero aimed to help developers prototype applications for the new Smart Citizen Kit Data Board 2.0. It contains a RTX4100 low-power Wi-Fi module, an SD card socket and a digital temperature and humidity sensor.*
 
 ## First Steps
 
