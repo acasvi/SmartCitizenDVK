@@ -5,6 +5,8 @@ Smart Citizen Kit DVK
 
 <img src="https://smartcitizen.me/img/sck_dvk.jpg" alt="SCK_DVK" style="width: 100%"/>
 
+*The **Smart Citizen DVK** is an Arduino Shield for the Arduino DUE and the upcoming Arduino Zero aimed to help developers prototype applications for the new Smart Citizen Kit Data Board 2.0. It contains an RTX4100 low-power Wi-Fi module, an SD card socket and a digital temperature and humidity sensor.*
+
 ## First Steps
 
 ### Installing the toolchain
@@ -23,13 +25,13 @@ Refer to **[RTX4100_User_Guide_Tools_Installation_UG2.pdf](https://github.com/fa
 
 After installing the Tool Chain, it is time to install the RTX41xx Software Development Kit (SDK). 
 
-Go to the following link: [www.rtx.dk/LPW/RTX4100](http://www.rtx.dk/LPW/RTX4100) and click on DOWNLOAD link on top right.
+Go to the following link: [www.rtx.dk/LPW/RTX4100](http://www.rtx.dk/LPW/RTX4100) and click on **DOWNLOAD** link on top right.
 
-You have to sign up to download the latest SDK(AmelieSdk_v1.6.0.58.exe).
+You have to sign up to download the latest SDK `AmelieSdk_v1.6.0.58.exe`.
 
-Once you have downloaded open the .exe to start the installer.
+Once you have downloaded open the `.exe` to start the installer.
 
-The SDK delivery from RTX includes the following items:
+The SDK download from RTX includes the following items:
 
 * Sample code implementing the following applications: 
     * Blinky: Small example application that uses a timer to flash a LED on the demo board.
@@ -77,7 +79,7 @@ In the Components folder (Projects\Amelie\Componets) you find the following fold
 * **Drivers** – Implementation of various hardware drivers 
 * **PtApps** – Protothread based application framework used by all reference applica-tions except Blinky. 
 
-Refer to RTX4100_User_Guide_Tools_Installation_UG2.pdf for a further explanation about installation the toolchain and SDK.
+Refer to **[RTX4100_User_Guide_Tools_Installation_UG2.pdf](https://github.com/fablabbcn/SmartCitizenDVK/blob/master/Documentation/RTX4100/RTX4100_User_Guide_Tools_Installation_UG2.pdf)** for a further explanation about installation the toolchain and SDK.
 
 #### Application Development
 
@@ -101,19 +103,19 @@ As you can see, the RTX shield has two push buttons, **S1** and **S2**. With thi
 
 ####MODE 1
 
-This is the default mode when you connect the board, green LED is ON. This mode send through usb-serial, at 9600 bauds, the values captured by the temperature and humidity sensors and give you if a SD Card is detected or not. You can find this values in the `main()` function of `SmartCitizen_DVK.ino`.
+This is the default mode when you connect the board, green LED is ON. This mode sendsthrough USB-Serial, at 9600 bauds, the values captured by the temperature and humidity sensors and tells you if a SD Card is detected or not. You can find this values in the `main()` function of `SmartCitizen_DVK.ino`.
 
 ####MODE 2
 
-If push **S1**, green LED start to blinking. You are on terminal mode. If CoLa app for terminal communication is uploaded, yelllow LED ON, you can talk through USB-serial with the RTX WIFI module. If you push again S1, you'll go back to MODE 1.
+If **S1** button is pushed, the green LED starts to blinking. You are on terminal mode. If a CoLa app for terminal communication is uploaded, yelllow LED ON, you can talk through USB-serial with the RTX WIFI module. If you push again S1, you'll go back to **MODE 1**.
 
 ####MODE 3
 
-If you push **S2**, blue LED ON, you can upload CoLA applications with **ColaController, **the PC tool used to download Co-Located Applications to the module via the UART. You can find this tool on ColaController folder inside Amelie SDK folder.
+If **S2** button is pushed ,the blue LED goes ON, you can now upload CoLA applications with **ColaController**, the PC tool used to download Co-Located Applications to the module via the UART. You can find this tool on **ColaController** folder inside **Amelie SDK** folder.
 
 ####MODE 4
 
-If you push **S2** again, green and blue LED ON, you will enter in RTX firmware uploading mode, then blue LED start to blinking.
+If **S2** button is pushed again, the green and blue LEDs goes ON, you will enter in RTX firmware uploading mode and the blue LED will start blinking.
 
 To perform the Firmware update:
 
@@ -156,8 +158,8 @@ The mux is used to select from Arduino which serial port of the RTX4100 you want
 
 You can select between two serial ports:
 
-* LEU1: (LEUART) is used for the Terminal application (such at Putty), for example.
-* US1: (USART) is used for CoLA loading, SW debugging and Platform updates (using the CoLA Controller)
+* **LEU1**: (LEUART) is used for the Terminal application (such at Putty), for example.
+* **US1**: (USART) is used for the COLApp loading, SW debugging and Platform updates (using the COLApp Controller)
 
 #### MCP1725-3002E/SN LDO REGULATOR
 
@@ -183,6 +185,6 @@ To hold the SD card we are using the DM3CS holder. The SD card is powered at 3V 
 
 #### LEDs
 
-* **LED1 YELLOW:** Connected to RTX4100 pin 27, for testing Blink Colapp example
+* **LED1 YELLOW:** Connected to RTX4100 pin 27, for testing Blink CoLA example
 * **LED2 BLUE:** Connected to Arduino Analog0 pin
 * **LED3 GREEN:** Connected to Arduino Analog1 pin
